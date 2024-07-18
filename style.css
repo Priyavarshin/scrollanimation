@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+.box:nth-child(1){
+    background-image: -webkit-linear-gradient(rgba(0,0,0,0.978), rgba(0,0,0,0.758)),url(aboutus_bg.png);
+    position: relative;
+}
+.box:nth-child(2){
+    background-image: url(chipseating\ .jpg);
+}
+.box:nth-child(3){
+    background-image: url(thin\ chips.jpeg);
+}
+.box:nth-child(4){
+    background-image: url(aboutus_bg.png);
+}
+.box:nth-child(5){
+    background-image: url(chips.jpeg);
+}
+.box:nth-child(6){
+    background-image: url(nanthra\ chips.jpeg);
+}
+h1{
+    color: ghostwhite;
+    font-size: 100px;
+    text-transform: capitalize;
+    -webkit-text-stroke: 1px ghostwhite;
+    color: transparent;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+h1:hover{
+    color: ghostwhite;
+    transition: all 0.3s ease-out;
+}
